@@ -1,0 +1,66 @@
+.solucoes {
+    /*padding-top: 3.5rem;*/
+    padding-bottom: 3.5rem;
+}
+
+.solucoes__titulo {
+    background-color: var(--pink-escuro);
+    padding: 10px 10px 10px 10px;
+    color: var(--branco);
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.solucoes__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.solucoes__item {
+    max-width: 350px;
+
+    box-sizing: border-box;
+
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.5rem;
+
+    padding: 2rem 0 0rem 5rem;
+}
+
+.solucoes__item--curadoria {
+    background-image: url(../imagens/icones/bioquimica.png);
+}
+
+.solucoes__item--foco {
+    background-image: url(../imagens/icones/bico-de-bunsen.png);
+}
+
+.solucoes__item--especialistas {
+    background-image: url(../imagens/icones/001-qumica.png);
+}
+
+.item__titulo {
+    color: var(--pink-escuro);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.item__texto {
+    line-height: normal;
+}
+
+@media screen and (min-width: 1024px) {
+    .solucoes {
+        background-color: var(--cinza);
+    }
+    .solucoes__lista {
+        justify-content: space-around;
+    }        
+}

@@ -1,0 +1,62 @@
+.contato {
+    display: flex;
+    background-color: var(--cinza);
+    flex-direction: column;
+    font-family: var(--montserrat);
+    align-items: center;
+
+    text-align: center;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contato__titulo {
+    color: var(--branco);
+    background-color: var(--pink-escuro);
+    padding: 10px 10px 10px 10px;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contato__botao {
+    color: var(--pink-escuro);
+
+    border-color: var(--pink-escuro);
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contato__descricao {
+    margin-bottom: 1rem;
+}
+
+.contato__endereco {
+    font-family: var(--montserrat);
+    color: var(--pink-escuro);
+    font-size: 1.5rem;
+    line-height: normal;
+
+    margin-bottom: 1rem;
+}
+
+.contato__informacoes {
+    font-size: 1.2rem;
+    line-height: 1.8;
+
+    margin-top: 1rem;
+}
+
+.contato__telefone {
+    line-height: normal;
+}
+
+.contato__email {
+    color: var(--fonte-link);
+    text-decoration: underline;
+    display: block;
+}

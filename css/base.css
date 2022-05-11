@@ -1,0 +1,44 @@
+:root {
+    --roxo-escuro: #140A25;
+    --pink-meio-escuro: #DB2B30;
+    --pink-escuro: #8F1D2C;
+    --branco: #fff;
+    --cinza: #f0f0f0;
+
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.botao {
+    border-radius: 5px;
+    border: 1px solid var(--branco);
+    box-sizing: border-box;
+    display: block;
+    max-width: 350px;
+    text-align: center;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+.spam-destaque {
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: var(--pink-meio-escuro);
+    color: var(--branco);
+  }
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
